@@ -1,0 +1,6 @@
+SELECT city, length(city) from station
+ORDER BY length(city),city ASC
+limit 1;
+SELECT city, length(city) from station
+ORDER BY length(city) DESC
+limit 1;
